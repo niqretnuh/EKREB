@@ -1,7 +1,5 @@
 # Name: Hunter Qin
 
-# Email: haoran.qin@vanderbilt.edu
-
  - Need to install node.js, express, cors, lodash, promises, axios
 
  - To run: get two separate terminals; go to backend and do "npm start"; then go to frontend and do "npm run dev"
