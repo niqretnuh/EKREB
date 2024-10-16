@@ -1,20 +1,20 @@
-Name: Hunter Qin
+# Name: Hunter Qin
 
-Email: haoran.qin@vanderbilt.edu
+# Email: haoran.qin@vanderbilt.edu
 
-Need to install node.js, express, cors, lodash, promises, axios
+ - Need to install node.js, express, cors, lodash, promises, axios
 
-To run: get two separate terminals; go to backend and do "npm start"; then go to frontend and do "npm run dev"
+ - To run: get two separate terminals; go to backend and do "npm start"; then go to frontend and do "npm run dev"
 
-***backend is run on port3000, frontend is run on 5173
+ - backend is run on port3000, frontend is run on 5173
 
-Important documents for review: 
+# Important documents for review: 
 
     backend: index.js
 
     frontend: scr/components/ (Clock.jsx, Game.jsx, GameRules.jsx, Title.jsx)
 
-Summary:
+# Summary:
 General Workflow:
     When page refreshes, Game will automaticall call the backend to retrieve a random word, display it, and start counting down the timer. If the user enters the guess correctly within three tries and the time constraint, they will gain one point and a new word will be generated, refreshing attempts and timer. If they use up all the attempts for one word, they will get docked one point and a new word will be generated, refreshing attempts and timer.
 
@@ -25,8 +25,6 @@ General Workflow:
     When the user changes difficulty level, a new word will be generated, timer will be refreshed.
 
     User can pause or resume the timer at any point.
-
-***Here are some very very detailed explanation of the code if you need more information
 
 EKREB:
     - Uses REACT for responsive frontend design and Node.js to code a REST API backend.
